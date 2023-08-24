@@ -6,7 +6,7 @@ import { Application } from "express";
 
 dotenv.config({ path: "./local.env" });
 
-const app: Application = express();
+import app from "./app";
 
 // const DATABASE: string = process.env.MONGODB_URI.replace(
 //   "<password>",
