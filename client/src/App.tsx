@@ -1,6 +1,6 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 
-import { Home, Login, SignUp, Product, PageNotFound } from index.js;
+import { Home, Login, SignUp, Product, PageNotFound } from index.ts;
 function App() {
 
   return (
